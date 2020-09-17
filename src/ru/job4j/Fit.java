@@ -19,7 +19,7 @@ public class Fit {
             double man = Fit2.manWeight(height);
             System.out.println("Мужчина с ростом 187 должен иметь вес " + man + "кг");
             double woman = Fit2.womanWeight(height);
-            System.out.println("Женщина с ростом 187 должна иметь вес " + woman + "кг";
+            System.out.println("Женщина с ростом 187 должна иметь вес " + woman + "кг");
         }
 
     }
