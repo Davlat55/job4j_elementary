@@ -1,7 +1,7 @@
 package ru.job4j;
 
 public class Fit {
-    public class Fit {
+    public static class Fit {
 
         public static double manWeight(short height) {
             double rsl = (height – 100) · 1,15.;
