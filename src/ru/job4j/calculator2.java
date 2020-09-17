@@ -7,7 +7,7 @@ public class calculator2 {
     }
 
     public static void main(String[] args) {
-        Calculator2.plus(1, 2);
-        Calculator2.plus(10, 11);
+
+        calculator2.plus(5,6);
     }
 }
