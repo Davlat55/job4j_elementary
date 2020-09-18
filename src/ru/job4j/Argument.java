@@ -9,10 +9,7 @@ public class Argument {
 
         public static void main(String[] args) {
             String name = "Davlat Raziev";
-
-
             ArgMethod.hello(name);
-
         }
     }
 }
