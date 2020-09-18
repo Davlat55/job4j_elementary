@@ -8,6 +8,6 @@ public class Сalculator2 {
 
     public static void main(String[] args) {
 
-        calculator2.plus(5, 6);
+        Сalculator2.plus(5, 6);
     }
 }
