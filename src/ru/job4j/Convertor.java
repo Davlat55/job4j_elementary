@@ -9,7 +9,7 @@ public class Convertor {
         }
 
         public static float rubleToDollar(float value) {
-            float rsl = value/60; /* формула перевода рублей в доллары. */
+            float rsl = value / 60; /* формула перевода рублей в доллары. */
             return rsl;
         }
 
