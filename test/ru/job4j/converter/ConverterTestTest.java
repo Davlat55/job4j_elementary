@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.Assert;
 import ru.job4j.Convertor;
 
-public class ConverterTestTest extends TestCase {
+class Converter {
 
     public void testRubleToEuro() {
     }
