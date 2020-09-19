@@ -10,10 +10,10 @@ public class PointTest {
         double result = PointTest.distance(0, 0, 2, 0);
         System.out.println("result (0, 0) to (2, 0) " + result);
 
-        double result = PointTest.distance(0, 2, 2, 2);
-        System.out.println("result (0, 2) to (2, 2) " + result);
+        double result2 = PointTest.distance(0, 2, 2, 2);
+        System.out.println("result (0, 2) to (2, 2) " + result2);
 
-        double result = PointTest.distance(2, 2, 3, 3);
-        System.out.println("result (2, 2) to (3, 3) " + result);
+        double result3 = PointTest.distance(2, 2, 3, 3);
+        System.out.println("result (2, 2) to (3, 3) " + result3);
     }
 }
