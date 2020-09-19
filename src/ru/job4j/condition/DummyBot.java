@@ -17,7 +17,7 @@ public class DummyBot {
         System.out.println(rsl);
         rsl = DummyBot.answer("Пока.");
         System.out.println(rsl);
-        rsl = DummyBot.answer("Как дела?");
+        rsl = DummyBot.answer("Как успехи в учебе Java?");
         System.out.println(rsl);
     }
 }
