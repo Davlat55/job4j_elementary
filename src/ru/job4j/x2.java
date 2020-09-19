@@ -24,11 +24,17 @@ public class x2 {
         int x3 = 1;
         int rsl3 = x2.calc(a3, b3, c3, x3);
         System.out.println(rsl3);
-        int a4 = 0;
+        int a4 = 1;
         int b4 = 1;
-        int c4 = 1;
+        int c4 = 0;
         int x4 = 1;
         int rsl4 = x2.calc(a4, b4, c4, x4);
         System.out.println(rsl4);
+        int a5 = 1;
+        int b5 = 1;
+        int c5 = 1;
+        int x5 = 0;
+        int rsl5 = x2.calc(a5, b5, c5, x5);
+        System.out.println(rsl5);
     }
 }
