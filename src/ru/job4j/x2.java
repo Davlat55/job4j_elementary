@@ -18,11 +18,11 @@ public class x2 {
         int x1 = 1;
         int rsl1 = x2.calc(a1, b1, c1, x1);
         System.out.println(rsl1);
-        int a2 = 0;
-        int b2 = 1;
-        int c2 = 1;
-        int x2 = 1;
-        int rsl2 = x2.calc(a2, b2, c2, x2);
-        System.out.println(rsl2);
+        int a3 = 0;
+        int b3 = 1;
+        int c3 = 1;
+        int x3 = 1;
+        int rsl3 = x2.calc(a3, b3, c3, x3);
+        System.out.println(rsl3);
     }
 }
