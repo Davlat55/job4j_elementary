@@ -14,6 +14,6 @@ public class FitTt {
     public static void main(String[] args) {
         short height = 187;
         double man = FitTt.manWeight(height);
-        System.out.println("Man 187 is " + man);
+        System.out.println("Мужчина при весе 187 рост должен быть " + man);
     }
 }
