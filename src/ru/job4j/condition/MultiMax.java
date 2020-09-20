@@ -1,5 +1,7 @@
 package ru.job4j.condition;
 
+import static java.lang.System.out;
+
 public class MultiMax {
     public static int max(int first, int second, int third) {
         if (first > second) {
@@ -10,6 +12,6 @@ public class MultiMax {
 }
 
     public static void main(String[] args) {
-        System.out.println(MultiMax.max(2,4,6));
+        out.println(MultiMax.max(2,4,6));
     }
 
