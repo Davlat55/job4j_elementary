@@ -12,7 +12,7 @@ public class MultiMax {
 
 
     public static void main(String[] args) {
-        int rsl = MultiMax.max(2, 4, 6);
+        int rsl = MultiMax.max(5, 5, 5);
         System.out.println(rsl);
     }
 }
