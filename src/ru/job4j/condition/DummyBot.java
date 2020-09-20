@@ -14,10 +14,14 @@ public class DummyBot {
 
     public static void main(String[] args) {
         String rsl = DummyBot.answer("Привет, Бот");
+        System.out.println("Привет, Бот");
         System.out.println(rsl);
         rsl = DummyBot.answer("Пока.");
         System.out.println(rsl);
+        System.out.println("Пока.");
         rsl = DummyBot.answer("Как успехи в учебе Java?");
+        System.out.println("Как успехи в учебе Java?");
         System.out.println(rsl);
+
     }
 }

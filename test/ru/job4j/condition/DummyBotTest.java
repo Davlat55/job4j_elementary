@@ -9,8 +9,8 @@ public class DummyBotTest {
     @Test
     public void whenGreetBot() {
         assertThat(
-                DummyBot.answer("Привет, умник."),
-                is("Привет, Бот.")
+                DummyBot.answer("Привет, Бот."),
+                is("Привет, умник.")
         );
     }
 
