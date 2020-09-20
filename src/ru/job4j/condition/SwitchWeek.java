@@ -1,7 +1,8 @@
 package ru.job4j.condition;
 
 public class SwitchWeek {
-    public String nameOfDay(int day) {
+
+    public static String nameOfDay(int day) {
         String name;
         switch (day) {
             case 1:
@@ -23,16 +24,16 @@ public class SwitchWeek {
                 name = "Суббота";
                 break;
             case 7:
-                name = "Суббота";
+                name = "Воскресенье";
                 break;
             default:
-                day = "Понедельник";
+                name = "Понедельник";
                 break;
         }
         return name;
     }
 
     public static void main(String[] args) {
-        System.out.println(SwitchWeek);
+        System.out.println(SwitchWeek.nameOfDay(5));
     }
 }
