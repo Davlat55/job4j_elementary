@@ -10,6 +10,6 @@ public class MultiMax {
 }
 
     public static void main(String[] args) {
-        MultiMax.max(2,4,6);
+        System.out.println(MultiMax.max(2,4,6));
     }
 
