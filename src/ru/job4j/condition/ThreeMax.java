@@ -12,7 +12,7 @@ public class ThreeMax {
     }
 
     public static void main(String[] args) {
-        int rsl = MultiMax.max(3, 8, 5);
+        int rsl = MultiMax.max(11, 8, 5);
         System.out.println(rsl);
     }
 
