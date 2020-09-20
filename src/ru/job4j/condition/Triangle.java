@@ -9,6 +9,6 @@ public class Triangle {
     }
 
     public static void main(String[] args) {
-        System.out.println(Triangle.exist(2.0,2.0,2.0));
+        System.out.println(Triangle.exist(2.0,0.0,2.0));
     }
 }
