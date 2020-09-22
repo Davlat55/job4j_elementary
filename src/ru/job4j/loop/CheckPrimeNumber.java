@@ -2,11 +2,14 @@ package ru.job4j.loop;
 
 public class CheckPrimeNumber {
     public static boolean check(int number) {
-        for (int i=1; i<=number; i++) {
-            if (!(number%2 == 0)) {
+        for (int i = 1; i <= number; i++) {
+            if (!(number % 2 == 0)) {
                 boolean prime = true;
                 return prime;
-                break;
             }
+            break;
+        }
+        return false;
     }
+
 }
