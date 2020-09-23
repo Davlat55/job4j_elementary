@@ -31,8 +31,14 @@ public class CheckPrimeNumberTest {
     }
 
     @Test
-    public void when16() {
-        boolean rsl = CheckPrimeNumber.check(16);
+    public void when3() {
+        boolean rsl = CheckPrimeNumber.check(3);
+        assertThat(rsl, is(true));
+    }
+
+    @Test
+    public void when9() {
+        boolean rsl = CheckPrimeNumber.check(9);
         assertThat(rsl, is(false));
     }
 
