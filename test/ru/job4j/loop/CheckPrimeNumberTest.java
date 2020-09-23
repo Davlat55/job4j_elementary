@@ -27,7 +27,7 @@ public class CheckPrimeNumberTest {
     @Test
     public void when57() {
         boolean rsl = CheckPrimeNumber.check(57);
-        assertThat(rsl, is(true));
+        assertThat(rsl, is(false));
     }
 
     @Test
