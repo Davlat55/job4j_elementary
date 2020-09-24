@@ -12,6 +12,6 @@ public class PrimeNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println("Количество простых чисел " + PrimeNumber.calc(20));
+        System.out.println("Количество простых чисел " + PrimeNumber.calc(50));
       }
 }
