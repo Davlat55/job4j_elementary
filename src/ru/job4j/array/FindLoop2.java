@@ -6,7 +6,7 @@ public class FindLoop2 {
             int rst = -1;
             for (int i = 0; i < data.length; i++) {
                 if(data[i] == el) {
-                    rst = data[i];
+                    rst = i;
                     break;
                 }
                 rst = -1; /* если элемента нет в массиве, то возвращаем -1. */
@@ -16,9 +16,9 @@ public class FindLoop2 {
 
         public static int indexOf(int[] data, int el, int start, int finish) {
             int rst = -1;
-            for ( start = 0; start < finish; start++) {
-                if(data[start] == el){
-                    rst = data[start];
+            for ( int i = start; i < finish; i++) {
+                if(data[i] == el){
+                    rst = i;
                     break;
                 }
                 rst = -1;
