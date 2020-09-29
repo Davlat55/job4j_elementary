@@ -16,11 +16,12 @@ public class Machine {
                      }
                 }
                 if (money == 0) {
+                    size += 1;                               // здесь добавил 1, чтоб правильно отрезать массив
                     break;
                 }
             }
         }
-        return Arrays.copyOf(rsl, size+1 );
+        return Arrays.copyOf(rsl, size );
    }
 }
 
