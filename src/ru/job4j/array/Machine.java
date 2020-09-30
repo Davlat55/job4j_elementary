@@ -9,16 +9,10 @@ public class Machine {
         int[] rsl = new int[100];
         if ((money -= price) > 0) {                          // отдаем кофе и считаем остаток
             for (size = 0; size < COINS.length; size++) {    // начинаем делит сдачу на монеты
-                while (money % COINS[size] >= 0) {           // сдачу на монету
+                while (money - COINS[size] >= 0) {           // сдачу на монету
                     rsl[y] = COINS[size];                    // помещаем первую монету
                     y++;                                     // добавляем место для следующей монеты
                     money -= COINS[size];                    // вычитаем монету
-                    if (money < COINS[size]) {               // если остаток меньше монеты,
-                         break;                              // прериваем цикл, и переходим к следующей монете
-                     }
-                }
-                if (money == 0) {                             // остаток полностью разделили на монеты
-                    break;
                 }
             }
         }
