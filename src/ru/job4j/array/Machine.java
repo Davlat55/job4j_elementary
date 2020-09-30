@@ -3,10 +3,10 @@ import java.util.Arrays;
 
 public class Machine {
     private final int[] COINS = {10, 5, 2, 1};
-    int size = 0;
-    int y = 0;
     public int[] change(int money, int price) {
         int[] rsl = new int[100];
+        int size = 0;
+        int y = 0;
         if ((money -= price) > 0) {                          // отдаем кофе и считаем остаток
             for (size = 0; size < COINS.length; size++) {    // начинаем делит сдачу на монеты
                 while (money - COINS[size] >= 0) {           // сдачу на монету
