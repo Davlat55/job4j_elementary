@@ -9,6 +9,8 @@ public class Merge {
         for (int y = left.length; y < left.length + right.length; y++) {
             rsl[y] =  right[y - left.length];
         }
+        SortSelected.sort(rsl);
+
         return rsl;
     }
 }
