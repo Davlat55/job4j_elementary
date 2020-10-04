@@ -6,17 +6,17 @@ public class Merge {
         int indexL = 0, indexR = 0;
         for (int i = 0; i < left.length + right.length; i++) {
             if(indexL == left.length) {
-                rsl[i] = right[i - indexR];
+                rsl[i] = right[indexR];
                 indexR++;
             } else if(indexR == right.length){
-                rsl[i] = left[i - indexL];
+                rsl[i] = left[indexL];
                 indexL++;
-            } else if(left[i - indexL] < right[i - indexR]) {
-                rsl[i] = left[i - indexL];
-                indexR++;
+            } else if(left[indexL] < right[indexR]) {
+                rsl[i] = left[indexL];
+                indexL++;
             } else {
-                rsl[i] = right[i = indexR];
-                indexL++;
+                rsl[i] = right[indexR];
+                indexR++;
             }
         }
         return rsl;
