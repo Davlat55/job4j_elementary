@@ -6,9 +6,8 @@ public class Merge {
         for (int i = 0; i < left.length; i++) {
             rsl[i] = left[i];
         }
-        int i = left.length;
-        for (; i < left.length + right.length; i++) {
-            rsl[i] =  right[i - left.length];
+        for (int y = left.length; y < left.length + right.length; y++) {
+            rsl[y] =  right[y - left.length];
         }
         return rsl;
     }
