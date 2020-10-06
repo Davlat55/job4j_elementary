@@ -19,4 +19,5 @@ public class ShortCircuitAndTest {
         ShortCircuitAnd.main(null);
         String ln = System.lineSeparator();
         assertThat(out.toString(), is("A" + ln)); }
+
 }

@@ -13,8 +13,7 @@ public class ShortCircuitAnd {
 
     public static void main(String[] args) {
         if (showA() && showB()) {
-            ShortCircuitAnd.showA();
-        } else
             ShortCircuitAnd.showB();
+        }
     }
 }
