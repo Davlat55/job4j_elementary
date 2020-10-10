@@ -2,19 +2,21 @@ package ru.job4j.condition;
 
 public class HelloWorld {
     public static String checkNumber(int number) {
+        String s;
        if (number % 3 == 0) {
-           return "Hello";
+           s = "Hello";
        }
         if (number % 5 == 0) {
-            return "World";
+            s = "World";
         }
         if (number % 3 == 0 && number % 5 == 0) {
-            return "Hello, World!!!";
+            s = "Hello, World!!!";
         }  else
-            return "Operation not support";
+            s = "Operation not support";
+        return s;
     }
 
     public static void main(String[] args) {
-        checkNumber(15);
+        checkNumber(3);
     }
 }
